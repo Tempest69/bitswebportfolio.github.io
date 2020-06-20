@@ -1,0 +1,129 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	background-color:steelblue;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center; 
+	padding:10px;
+	font-style:italic;
+}
+
+a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.content {
+	background-color:#9932CC;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	animation-name: example;
+	animation-duration: 20s;
+	animation-iteration-count:infinite;
+}
+ 
+img {
+	width:50%;
+}
+
+.main {
+	padding-left:10px;
+	border-style:solid;
+	border-width:5px;
+}
+
+.main h4{
+	text-shadow:2px 2px 5px violet;
+	font-size:20px;
+}
+
+.skills{
+	background-color:cyan;
+	padding-top:25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding-bottom:25px;
+	padding-left:35px;
+	font-size:20px;
+	word-spacing:20px;
+	animation-name: test;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function: linear;
+}
+
+.main p{
+	font-size:20px;
+}
+
+.main h2{
+	text-decoration:underline;
+	font-family:Tahoma;
+}
+
+.button{
+	background-color:#000;
+	color:#fff;
+	border:none;
+	padding:10px 15px;
+}
+
+.button:hover{
+	background:#099B9B;
+	color:#fff;
+}
+
+.footer{
+	background-color:aqua;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center; 
+	padding:10px;
+	margin-bottom:0px;
+}
+
+@keyframes example {
+	0%   {background-color: #9932CC;}
+	25%  {background-color: #8B008B;}
+	50%  {background-color: #800080;}
+	100% {background-color: #4B0082;}
+}
+
+@keyframes test {
+	0% {background-color: skyblue;}
+	10%{background-color: #00BFFF;}
+	20%{background-color: #1E90FF;}
+	30%{background-color: #6495ED;}
+	40%{background-color: #7B68EE;}
+	50%{background-color: #4169E1;}
+	60%{background-color: #0000FF;}
+	70%{background-color: #0000CD;}
+	80%{background-color: #00008B;}
+	90%{background-color: #000080;}
+	100%{background-color: #191970;}
+}
+
+.skills1 {
+	padding:20px;
+	font-size:30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	width: 50%;
+}
+
+.td-img {
+	text-align: center;
+	vertical-align: center;
+}
